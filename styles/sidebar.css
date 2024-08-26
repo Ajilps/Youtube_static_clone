@@ -20,7 +20,7 @@
 
 }
 .side-signin p{
-    font-size: 2vh;
+    font-size: 1rem;
     size: 5px;
     
     align-items: end;
@@ -78,7 +78,7 @@
 .side-footer{
     margin-left: 20px;
     align-self: center;
-    font-size: 15px;
+    font-size: 1rem;
     line-height:18px;
 }
 .side-signin-button{
