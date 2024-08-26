@@ -51,7 +51,7 @@
     height: 31px;
     flex: 1;
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 1rem;
     border-width: 1px;
     border-style: solid;
     box-shadow:inset 1px 2px 3px rgba(0,0,0,.05);
@@ -61,7 +61,7 @@
 }
 .search-bar::placeholder{
     font-family: Roboto, Arial;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .search-button{
     margin-left: -1PX;
