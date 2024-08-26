@@ -1,0 +1,11 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-width="2">
+ <!-- Circle for the head -->
+ <!-- Arc for the body -->
+ <!-- Outer circle -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <circle cx="11.94" cy="9.06" fill="#ffffff" id="svg_1" r="4" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m6.13,19.06c0,-4 6,-4 6,-4s6,0 6,4" fill="#ffffff" id="svg_2" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="11.94" cy="11.69" fill="none" id="svg_3" r="10" stroke="lightgray"/>
+ </g>
+</svg>

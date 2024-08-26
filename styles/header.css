@@ -1,0 +1,151 @@
+
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240,240,240);
+
+}
+/*  */
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube-logo{
+    height: 20px;
+}
+.youtube-logo:hover{
+    cursor: pointer;
+}
+.hamburgur-menu{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 26px;
+    cursor: pointer;
+}
+
+/*  */
+
+.middle-section{
+    display: flex;
+    /* background-color: bisque; */
+    flex: 1;
+    margin-left: 70px;
+    max-width: 500px;
+    align-items: center;
+}
+.search-bar {
+    border-end-start-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 31px;
+    flex: 1;
+    padding-left: 15px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow:inset 1px 2px 3px rgba(0,0,0,.05);
+    border-color: rgb(192.192.192);
+    width: 0;
+
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-button{
+    margin-left: -1PX;
+    height: 35px;
+    width: 60PX;
+    border-end-end-radius:25px ;
+    border-top-right-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    border-color: rgb(192.192.192); 
+    cursor: pointer;
+}
+.search-image{
+    height: 100%;
+    border-radius: 50%;
+}
+.voice-search-button{
+    background-color: #f8f8f8;
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: none;
+    border-color: rgb(192.192.192); 
+    cursor: pointer; 
+}
+.voice-search-image{
+    height: 70%;
+    width: 23px;
+    border-radius: 50%;
+    border: none;  
+}
+
+/* --------------------------------------- */
+
+.right-section{
+    display: flex;
+    
+    /* background-color: aquamarine; */
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+.signin-button {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    /* color: blue; */
+    /* background-color: aqua; */
+    width: 100px;
+    height: 39px;
+    cursor: pointer;
+    
+    border: solid;
+    border-color:rgb(240,240,240);
+    
+    
+}
+
+.right-icon{
+    
+
+}
+.bell-icon{
+    
+    height: 35px;
+}
+.profile-image{
+    height: 35px;
+    border-radius: 50%;
+}
+.upload-icon{
+    /* 3 dots */
+ height: 35px;
+ cursor: pointer;
+}
+#sigindev{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
