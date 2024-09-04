@@ -1,6 +1,6 @@
-.side-bar{
+.side-bar {
     display: flex;
-    
+
     position: fixed;
     left: 0;
     bottom: 0;
@@ -10,32 +10,35 @@
     flex-direction: column;
     overflow-y: scroll;
 
-    
+
     background-color: #ffffff;
     overflow-y: scroll;
     overflow-x: hidden;
     padding-top: 20px;
-   
+
     scrollbar-width: thin;
 
 }
-.side-signin p{
+
+.side-signin p {
     font-size: 1rem;
     size: 5px;
-    
+
     align-items: end;
 }
-.side-flex{
-    
+
+.side-flex {
+
     display: flex;
     flex-direction: column;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(240,240,240);
+    border-bottom-color: rgb(240, 240, 240);
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.side-button{
+
+.side-button {
     cursor: pointer;
     display: flex;
     border-radius: 7px;
@@ -45,58 +48,81 @@
     background-color: #ffffff;
     align-items: center;
 }
-.side-button:hover{
+
+.side-button:hover {
     background-color: lightgray;
 }
-.side-logo{
+
+.side-logo {
     margin-left: 20px;
     margin-right: 25px;
     width: 30px;
     color: aquamarine;
-    
+
 }
-.side-icones{
-    
-}
-.side-perdonal{
-   
-}
-.side-signin{
+
+.side-icones {}
+
+.side-personal {}
+
+.side-signin {
     margin-left: 20px;
 
 }
-.side-explore{
 
-    
-}
-.side-moreapps{
-    
+.side-explore {}
+
+.side-moreapps {
+
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: rgb(240,240,240);
+    border-bottom-color: rgb(240, 240, 240);
 }
-.side-footer{
+
+.side-footer {
+    font-weight: 700;
+    color: rgba(54, 53, 53, 0.767);
     margin-left: 20px;
     align-self: center;
     font-size: 1rem;
-    line-height:18px;
+    line-height: 18px;
 }
-.side-signin-button{
+
+.side-signin-button {
     display: flex;
     align-items: center;
 
     /* border-radius: 25px; */
 }
-.signin-button:hover{
+
+.signin-button:hover {
     background-color: lightgray;
 }
 
-#signin-text{
+#signin-text {
     margin-bottom: 10px;
     margin-left: 20px;
     align-self: center;
 }
+
+#sigindev {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240, 240, 240);
+}
+
 .side-logo-signin {
     color: yellowgreen;
-   margin-right: 5px;
+    margin-right: 5px;
+}
+
+.side-sub-heading {
+    font-family: Roboto, Arial;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+#Copyright{
+    font-weight: 100;
+    color: rgba(143, 142, 142, 0.911);
 }
